@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <LinkableGroupDef MayRequire="mingtuwuxiang.GothicDecorative">
+        <defName>Iyadriel_MUSGothic_Research</defName>
+        <group>Research</group>
+        <facilities>
+            <li>MUS_Gothicstyle_Bookcase</li>
+        </facilities>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="KindSeal.UFLI">
+        <defName>Iyadriel_UFLI_Research</defName>
+        <group>Research</group>
+        <facilities>
+            <li>UFLI_CabinetF</li>
+            <li MayRequire="adaptive.storage.framework">UFLI_Bookshelf_AS</li>
+        </facilities>
+    </LinkableGroupDef>
+</Defs>

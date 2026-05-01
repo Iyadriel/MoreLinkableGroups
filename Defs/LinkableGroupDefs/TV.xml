@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <LinkableGroupDef MayRequire="Resurrectionem.Furniture">
+        <defName>Iyadriel_RRFurniture_TV</defName>
+        <group>TV</group>
+        <affected>
+            <li>RRTVSet</li>
+            <li>RRHomeTVSet</li>
+            <li>RRHomeTV</li>
+            <li>RRHomeTVTwo</li>
+            <li>RRBigTV</li>
+        </affected>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="KindSeal.UFLI">
+        <defName>Iyadriel_UFLI_TV</defName>
+        <group>TV</group>
+        <affected>
+            <li>UFLI_Television</li>
+            <li>UFLI_Hugescreen</li>
+            <li>UFLI_laptop</li>
+        </affected>
+    </LinkableGroupDef>
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>More Linkable Groups</name>
+    <author>Iyadriel</author>
+    <packageId>Iyadriel.MoreLinkableGroups</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>linnun.linkablegroups</packageId>
+            <displayName>Linkable Groups</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>mingtuwuxiang.FishingDecorative</li>
+        <li>mingtuwuxiang.GothicDecorative</li>
+        <li>ponpeco.PFSF</li>
+        <li>Resurrectionem.Furniture</li>
+        <li>KindSeal.UFLI</li>
+        <li>Cantaloupe.AdvancedPolyBeds</li>
+        <li>linnun.linkablegroups</li>
+    </loadAfter>
+    <description>Adds Linkable Groups support for furniture from several mods: MUS Furniture (FishingDecorative + Gothicstyle Vampire), Ponpeco Furnitures Sci-Fi, RR's Furniture pack, UF Light Industries Furniture, and Advanced Polyamory Beds. Each entry uses MayRequire so any target mod can be absent.</description>
+</ModMetaData>

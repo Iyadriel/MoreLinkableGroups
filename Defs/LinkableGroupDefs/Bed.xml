@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <LinkableGroupDef MayRequire="Cantaloupe.AdvancedPolyBeds">
+        <defName>Iyadriel_AdvancedPolyBeds_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>Bed_AdvTripleBed</li>
+            <li>Bed_AdvQuadraBed</li>
+            <li>Bed_AdvPentaBed</li>
+        </affected>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="mingtuwuxiang.FishingDecorative">
+        <defName>Iyadriel_MUSFishing_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>MUS_Fishing_RattanBed</li>
+            <li>MUS_Fishing_RattanDoubleBed</li>
+        </affected>
+        <facilities>
+            <li>MUS_Fishing_RattanLowTable</li>
+            <li>MUS_Fishing_RattanCabinet</li>
+        </facilities>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="mingtuwuxiang.GothicDecorative">
+        <defName>Iyadriel_MUSGothic_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>MUS_Gothicstyle_Bed</li>
+            <li>MUS_Gothicstyle_DoubleBed</li>
+            <li>MUS_Gothicstyle_CoffinBed</li>
+        </affected>
+        <facilities>
+            <li>MUS_Gothicstyle_BedsideTable</li>
+            <li>MUS_Gothicstyle_Wardrobe</li>
+            <li>MUS_Gothicstyle_Mirror</li>
+        </facilities>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="ponpeco.PFSF">
+        <defName>Iyadriel_PFSBedB_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>PFS_BedB</li>
+            <li>PFS_DoubleBedB</li>
+            <li>PFS_RoyalBed</li>
+        </affected>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="Resurrectionem.Furniture">
+        <defName>Iyadriel_RRFurniture_Bed</defName>
+        <group>Bed</group>
+        <facilities>
+            <!-- End tables -->
+            <li>RRFelzenEndtable</li>
+            <li>RRKarvinaEndtable</li>
+            <!-- Wardrobes and dressers -->
+            <li>RRHeronaWardrobe</li>
+            <li>RRTaragonaWardrobe</li>
+            <li>RRDresser</li>
+            <li>RRDresserTwo</li>
+        </facilities>
+        <affected>
+            <!-- Single beds -->
+            <li>RRMetalBed</li>
+            <li>RRArtDecoSingleBed</li>
+            <li>RRMidModernSingleBed</li>
+            <li>RRADSingleBedOne</li>
+            <li>RRADSingleBedTwo</li>
+            <!-- Double beds -->
+            <li>RRMetalDoubleBed</li>
+            <li>RRArtDecoDoubleBed</li>
+            <li>RRMidModernDoubleBed</li>
+            <li>RRStreamlineDoubleBed</li>
+            <!-- Royal bed -->
+            <li>RRRoyalBed</li>
+        </affected>
+    </LinkableGroupDef>
+
+    <LinkableGroupDef MayRequire="KindSeal.UFLI">
+        <defName>Iyadriel_UFLI_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>UFLI_Bed</li>
+            <li>UFLI_DoubleBed</li>
+            <li>UFLI_TripleBed</li>
+            <li>UFLI_4PBed</li>
+            <li>UFLI_Crib</li>
+        </affected>
+        <facilities>
+            <li>UFLI_Endtable</li>
+            <li>UFLI_CabinetA</li>
+            <li>UFLI_CabinetB</li>
+            <li>UFLI_CabinetC</li>
+            <li>UFLI_CabinetD</li>
+            <li>UFLI_CabinetE</li>
+            <li>UFLI_CabinetF</li>
+            <li>UFLI_Floorlight</li>
+            <li MayRequire="adaptive.storage.framework">UFLI_Wardrobe_AS</li>
+            <li MayRequire="adaptive.storage.framework">UFLI_Bookshelf_AS</li>
+        </facilities>
+    </LinkableGroupDef>
+</Defs>

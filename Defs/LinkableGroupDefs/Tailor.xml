@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <LinkableGroupDef MayRequire="KindSeal.UFLI">
+        <defName>Iyadriel_UFLI_Tailor</defName>
+        <group>Tailor</group>
+        <affected>
+            <li>UFLI_WashingMachine</li>
+        </affected>
+    </LinkableGroupDef>
+</Defs>
