@@ -78,6 +78,17 @@
         </affected>
     </LinkableGroupDef>
 
+    <LinkableGroupDef MayRequire="vanillaexpanded.gravship">
+        <defName>Iyadriel_VGE_Bed</defName>
+        <group>Bed</group>
+        <affected>
+            <li>VGE_CrewBunkBed</li>
+        </affected>
+        <facilities>
+            <li>VGE_CrewLockers</li>
+        </facilities>
+    </LinkableGroupDef>
+
     <LinkableGroupDef MayRequire="KindSeal.UFLI">
         <defName>Iyadriel_UFLI_Bed</defName>
         <group>Bed</group>

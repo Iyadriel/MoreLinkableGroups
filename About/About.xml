@@ -19,7 +19,8 @@
         <li>Resurrectionem.Furniture</li>
         <li>KindSeal.UFLI</li>
         <li>Cantaloupe.AdvancedPolyBeds</li>
+        <li>vanillaexpanded.gravship</li>
         <li>linnun.linkablegroups</li>
     </loadAfter>
-    <description>Adds Linkable Groups support for furniture from several mods: MUS Furniture (FishingDecorative + Gothicstyle Vampire), Ponpeco Furnitures Sci-Fi, RR's Furniture pack, UF Light Industries Furniture, and Advanced Polyamory Beds. Each entry uses MayRequire so any target mod can be absent.</description>
+    <description>Adds Linkable Groups support for furniture from several mods: MUS Furniture (FishingDecorative + Gothicstyle Vampire), Ponpeco Furnitures Sci-Fi, RR's Furniture pack, UF Light Industries Furniture, Advanced Polyamory Beds, and Vanilla Gravship Expanded - Chapter 1. Each entry uses MayRequire so any target mod can be absent.</description>
 </ModMetaData>
